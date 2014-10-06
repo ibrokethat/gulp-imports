@@ -1,0 +1,46 @@
+{
+  "name": "gulp-imports",
+  "version": "0.0.1",
+  "description": "dynamically create a bulk imports file",
+  "license": "MIT",
+  "repository": "ibrokethat/gulp-imports",
+  "author": {
+    "name": "Simon Jefford",
+    "email": "si@ibrokethat.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "esnext",
+    "rewriting",
+    "transformation",
+    "syntax",
+    "codegen",
+    "desugaring",
+    "javascript",
+    "ecmascript",
+    "language",
+    "es5",
+    "es6",
+    "ES.next",
+    "harmony",
+    "compiler",
+    "transpiler"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "gulp-sourcemaps": "^1.1.1",
+    "mocha": "*"
+  }
+}
